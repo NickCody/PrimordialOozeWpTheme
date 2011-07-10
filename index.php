@@ -20,15 +20,14 @@ get_header(); ?>
                     <?php the_content('Read the rest of this entry &raquo;'); ?>
                 </div>
 
-                <p class="postmetadata"><?php the_tags('Tags: ', ', ', '<br />'); ?> Posted in <?php the_category(', ') ?> | <?php edit_post_link('Edit', '', ' | '); ?>  <?php comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?></p>
+                <div class="postmetadata"><?php the_tags('This entry was tagged ', ' and ', ''); ?></div>
             </div>
 
         <?php endwhile; ?>
-
-        <div class="navigation">
-            <div class="alignleft"><?php next_posts_link('&laquo; Older Entries') ?></div>
-            <div class="alignright"><?php previous_posts_link('Newer Entries &raquo;') ?></div>
-        </div>
+		
+    <div class="navigation">
+			<div class="alignleft"><?php next_posts_link('&laquo; Older Entries') ?>, <?php previous_posts_link('Newer Entries &raquo;') ?></div>
+		</div>
 
     <?php else : ?>
 
