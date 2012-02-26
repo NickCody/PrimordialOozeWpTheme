@@ -65,3 +65,22 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
 #footer {
   text-align: center; }
+
+.wp-caption {
+  border: 1px solid #CCC;
+  text-align: center;
+  padding: 4px;
+  background-color: #EEE;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+
+.wp-caption-text {
+  font-size: 14px;
+  font-family: Helvetica;
+  text-align: center;
+  background-color: #EEE;
+  margin: 0px;
+}
+
+
