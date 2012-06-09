@@ -1,6 +1,6 @@
 /*
 Theme Name: Primordial Ooze
-Theme URI: http://primordia.com/blog 
+Theme URI: https://github.com/NickCody/PrimordialOozeWpTheme
 Description: Default theme for the Primordial Ooze Blog
 Author: Nick Cody
 Author URI: http://primordia.com/blog 
@@ -10,10 +10,11 @@ Tags: one-column
 License:
 License URI:
 
-This is a first theme
+This is a first theme .
 */
+
 body { 
-  font: 18px/25px 'Palatino', 'Palatino Linotype', 'Georgia', serif;
+  font: 22px/30px 'EB Garamond', 'Palatino', 'Palatino Linotype', 'Georgia', serif;
   margin: 0; padding: 0; }
 
 a { 
@@ -32,6 +33,10 @@ h1, h2, h3, h4, h5, h6 {
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   text-decoration: none;
   color: #222; }
+
+h3 {
+  margin-bottom: 12px;
+}
 
 #header {
   margin-bottom: 3em; }
@@ -83,4 +88,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   margin: 0px;
 }
 
-
+/* To fix Bootstrap forms */
+label, input, button, select, textarea {
+  font-size: 18px;
+}

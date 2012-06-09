@@ -8,13 +8,16 @@
 <head>
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 <title><?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo('name'); ?></title>
-<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
-<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="<?php bloginfo('stylesheet_directory');?>/iphone.css"/>
 
+<!-- Bootstrap first, then we override -->
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_directory');?>/bootstrap-min.css"/>
+<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 <!-- SyntaxHighlighter Support -->
 <link rel="stylesheet" href="/blog/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="/blog/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css" type="text/css" media="screen" />
 <script type="text/javascript" src="/blog/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js"></script> 
+
+<link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
 
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 <script type="text/javascript">SyntaxHighlighter.all();</script>
