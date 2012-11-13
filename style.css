@@ -15,12 +15,7 @@ This is a first theme .
 */
 body {
   font: 18px/25px 'Palatino', 'Palatino Linotype', 'Georgia', serif;
-=======
-
-body {
-  font: 22px/30px 'EB Garamond', 'Palatino', 'Palatino Linotype', 'Georgia', serif;
->>>>>>> 52fa5cb108adb4f85c80926b3b6e459e116ee6d6
-  margin: 0; padding: 0; }
+}
 
 a {
   color: #432165;
