@@ -1,9 +1,10 @@
 /*
 Theme Name: Primordial Ooze
 Theme URI: https://github.com/NickCody/PrimordialOozeWpTheme
+>>>>>>> 52fa5cb108adb4f85c80926b3b6e459e116ee6d6
 Description: Default theme for the Primordial Ooze Blog
 Author: Nick Cody
-Author URI: http://primordia.com/blog 
+Author URI: http://primordia.com/blog
 Version: 1.0
 Tags: one-column
 
@@ -12,16 +13,20 @@ License URI:
 
 This is a first theme .
 */
+body {
+  font: 18px/25px 'Palatino', 'Palatino Linotype', 'Georgia', serif;
+=======
 
-body { 
+body {
   font: 22px/30px 'EB Garamond', 'Palatino', 'Palatino Linotype', 'Georgia', serif;
+>>>>>>> 52fa5cb108adb4f85c80926b3b6e459e116ee6d6
   margin: 0; padding: 0; }
 
-a { 
+a {
   color: #432165;
   text-decoration: underline; }
 
-a:hover { 
+a:hover {
   color: #3b185f; background: #f9f8fa; text-decoration: underline; }
 
 h1, h2 {
@@ -51,10 +56,10 @@ h3 {
 #header hr {
   width: 100%; height: 1px;
   color: #ddd;
-  background-color: #ddd; 
-  border: 0; }
+    background-color: #ddd;
+    border: 0; }
 
-.post h1 {
+  .post h1 {
   font-size: 48px;
   line-height: 60px;
   margin-bottom: 0.2em; }
@@ -87,6 +92,11 @@ h3 {
   background-color: #EEE;
   margin: 0px;
 }
+
+pre, code {
+  padding: 2px 4px;
+  background-color: #F7F7F9;
+  border: 1px solid #E1E1E8;
 
 /* To fix Bootstrap forms */
 label, input, button, select, textarea {
