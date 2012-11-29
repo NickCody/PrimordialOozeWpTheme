@@ -19,7 +19,7 @@ get_header();
 				<?php the_content('<p class="serif">Read the rest of this entry &raquo;</p>'); ?>
 
 				<?php wp_link_pages(array('before' => '<p><strong>Pages:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
-        <div class="postmetadata"><?php the_tags('This entry was tagged ', ' and ', ''); ?></div>
+        <div class="postmetadata"><?php the_tags('This entry was tagged ', ',', '.'); ?> Categories: <?php the_category(','); ?>.</div>
 
 				<p class="postmetadata alt">
 					<small>

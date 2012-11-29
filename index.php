@@ -20,7 +20,7 @@ get_header(); ?>
                     <?php the_content('Read the rest of this entry &raquo;'); ?>
                 </div>
 
-                <div class="postmetadata"><?php the_tags('This entry was tagged ', ',', '.'); ?></div>
+                <div class="postmetadata"><?php the_tags('This entry was tagged ', ',', '.'); ?> Categories: <?php the_category(','); ?>.</div>
             </div>
 
         <?php endwhile; ?>
