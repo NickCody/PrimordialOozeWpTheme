@@ -13,6 +13,15 @@ License URI:
 
 This is a first theme .
 */
+
+fieldset {
+    border: 0px;
+}
+textarea {
+    width: 640px;
+    height: 128px;
+}
+
 body {
   font: 18px/25px 'Palatino', 'Palatino Linotype', 'Georgia', serif;
 }
@@ -101,4 +110,3 @@ label, input, button, select, textarea {
 li {
   line-height: 150%;
 }
-
