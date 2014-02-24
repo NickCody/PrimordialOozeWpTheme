@@ -5,9 +5,12 @@
  */
 ?>
 <!DOCTYPE html>
+<html>
 <head>
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 <title><?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo('name'); ?></title>
+
+<link rel="alternate" type="application/rss+xml" title="nickcoding.com" href="<?php bloginfo('rss2_url'); ?>"/>
 
 <!-- Bootstrap first, then we override -->
 <!--
